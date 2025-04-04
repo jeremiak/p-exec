@@ -1,5 +1,5 @@
 {
-  "name": "p-exec",
+  "name": "@jeremiak/p-exec",
   "version": "1.0.0",
   "main": "index.mjs",
   "scripts": {
