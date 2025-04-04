@@ -1,0 +1,13 @@
+{
+  "name": "p-exec",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "type": "module",
+  "keywords": ["exec", "promise"],
+  "author": "@jeremiak",
+  "license": "CC-BY-SA",
+  "description": "Promisified child_process.exec()"
+}
