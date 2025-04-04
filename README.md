@@ -14,5 +14,5 @@ For example:
 import exec from "p-exec"
 
 const result = await exec('echo "hi"')
-console.log(result) // "hi"
+console.log(result.trim()) // "hi"
 ```
