@@ -1,4 +1,4 @@
-# p-exec
+# @jeremiak/p-exec
 
 Promisified `exec` from the `child_process` module from the Node standard library.
 
@@ -11,7 +11,7 @@ The first parameter passed to the function is the command to execute, the second
 For example:
 
 ```js
-import exec from "p-exec"
+import exec from "@jeremiak/p-exec"
 
 const result = await exec('echo "hi"')
 console.log(result.trim()) // "hi"
